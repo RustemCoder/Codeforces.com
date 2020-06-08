@@ -1,0 +1,29 @@
+#include <iostream>
+
+int main()
+
+{
+	int n ,k ;
+	int c=0;
+	std::cin>>n>>k;
+	
+	
+	
+	while(k>=n)
+	{
+		n=n*3;
+		k=k*2;
+		
+		c++;
+		
+		
+		
+		
+		
+	}
+	
+	
+	std::cout<<c;
+	return 0;
+	
+}

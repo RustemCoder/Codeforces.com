@@ -1,0 +1,35 @@
+#include <iostream>
+
+int main()
+{
+	int n;
+	std::cin>>n;
+	int a,c,b,d ;
+	
+	
+	while(n++)
+	{
+		a=n/1000;
+		b=(n/100)%10;
+		c=(n/10)%10;
+		d=n%10;
+		if( a!=b && a!=c && a!=d)
+		{
+			
+			if(  b!=d && b!=c)
+			{
+				if(c!=d)
+				{
+					std::cout<<n;
+					return 0;
+				}
+			}
+			
+		}
+		
+		
+	}
+	
+	
+	return 0;
+}
